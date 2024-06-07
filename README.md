@@ -1,4 +1,3 @@
-```markdown
 # Danielle Lombardo
 [linkedin.com/in/daniellelombardo](https://www.linkedin.com/in/daniellelombardo)
 
@@ -81,4 +80,3 @@ Results-driven Digital Product Manager with over a decade of hands-on experience
 
 **Bachelor of Fine Arts, Concentration in Graphics & Web Design**  
 William Paterson University
-```
