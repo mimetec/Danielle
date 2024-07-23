@@ -36,7 +36,7 @@ class Token {
         // I brought up how in a real situation I wouldn't use setTimeouts because you never know how long a users device will actually take I suggested async/awaits in a try/catch, but since this is a mock he stopped me and said why would you want to use the setTimeout here, and I answered because this isn't awaiting anything from an external source, we want this to run within a unit test of our own making so we have to prompt it to run with a timeout to create the illusion of the real timing situation
       setTimeout(()=>{
         this.__initted = true; // js vs typescript, syntax errors get past in js
-        complete(true);
+        complete(true); // he asked when this would run before or after the next parts and I said it'd take a second then move on in the call stack but he told me that wasn't true, I should look into how it would do this in TS verus JS I was confused about it.
       }, 1000)
       f = ()=>{
         if (this._platform_event_handler.size){
