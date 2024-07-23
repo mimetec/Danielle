@@ -154,16 +154,16 @@ points.sort(function(a, b){return a - b});
 // and points[points.length-1] contains the highest value
 
 
-closures
-spread and rest operators
-classes and prototype
-arrays and array methods
-aggregating array items
-concat
-console log and errors
-jquery selectors
-object.entries
-isNaN
+// closures
+// spread and rest operators
+// classes and prototype
+// arrays and array methods
+// aggregating array items
+// concat
+// console log and errors
+// jquery selectors
+// object.entries
+// isNaN
 
 
 import React from 'react';
@@ -178,7 +178,7 @@ class Car extends React.Component {
   }
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Car model="Mustang"/>);
 
 import React from 'react';
